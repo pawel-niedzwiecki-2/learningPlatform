@@ -62,7 +62,7 @@ app.use(cookieParser())
 app.use(express.static(path.join(__dirname, 'public')))
 
 // main
-app.use('/', indexRouter)
+ app.use('/', indexRouter)
 
 // doc select
 app.use('/doc', selectDocRouter)
